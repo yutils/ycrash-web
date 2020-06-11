@@ -13,6 +13,7 @@
 <font color=#0099ff size=4 >nginx配置</font>
 ``` 
 server {
+        #自己的端口
         listen       52580;
         server_name  localhost;
 
@@ -40,6 +41,8 @@ server {
         }
 }
 ```
+
+启动成后，浏览器输入：http://127.0.0.1:52580 就可以了
 
 
 Github地址：[https://github.com/yutils/ycrash-server](https://github.com/yutils/ycrash-server)
